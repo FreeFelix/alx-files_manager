@@ -180,18 +180,18 @@ python3 files_manager.py -o test_dir user1 -f
 
 The `-f` flag indicates that the argument is a folder.
 
-- To change the timestamp of a file named `test.txt` in the current directory to `2023-10-02 22:04:09`, use:
+- To change the timestamp of a file named `test.txt` in the current directory to `2024-07-02 22:04:09`, use:
 
 ```bash
-python3 files_manager.py -t test.txt 2023-10-02 22:04:09
+python3 files_manager.py -t test.txt 2024-07-02 22:04:09
 ```
 
-The argument `2023-10-02 22:04:09` is the date and time in ISO format.
+The argument `2024-07-02 22:04:09` is the date and time in ISO format.
 
-- To change the timestamp of a folder named `test_dir` in the current directory to `2023-10-02 22:04:09`, use:
+- To change the timestamp of a folder named `test_dir` in the current directory to `2024-07-02 22:04:09`, use:
 
 ```bash
-python3 files_manager.py -t test_dir 2023-10-02 22:04:09 -f
+python3 files_manager.py -t test_dir 2024-07-02 22:04:09 -f
 ```
 
 The `-f` flag indicates that the argument is a folder.
@@ -200,20 +200,19 @@ The `-f` flag indicates that the argument is a folder.
 
 The project consists of 12 tasks, each with a specific requirement and objective. The tasks are as follows:
 
-- [0. Create]: Write a function that creates an empty file or a folder. [Link](./alx-files_manager/blob/main/0-create)
-- [1. Delete]: Write a function that deletes a file or a folder. [Link](./alx-files_manager/blob/main/1-delete)
-- [2. Move]: Write a function that moves a file or a folder to another location. [Link](./alx-files_manager/blob/main/2-move)
-- [3. Copy]: Write a function that copies a file or a folder to another location. [Link](./alx-files_manager/blob/main/3-copy)
-- [4. Rename]: Write a function that renames a file or a folder. [Link](./alx-files_manager/blob/main/4-rename)
-- [5. Search]: Write a function that searches for a file or a folder by name, size, type, or content. [Link](./alx-files_manager/blob/main/5-search)
-- [6. List]: Write a function that lists all files and folders in a given directory. [Link](./alx-files_manager/blob/main/6-list)
-- [7. Permissions]: Write a function that changes the permissions of a file or a folder. [Link](./alx-files_manager/blob/main/7-permissions)
-- [8. Owner]: Write a function that changes the owner of a file or a folder. [Link](./alx-files_manager/blob/main/8-owner)
-- [9. Timestamp]: Write a function that changes the timestamp of a file or a folder. [Link](./alx-files_manager/blob/main/9-timestamp)
-- [10. Main]: Write the main function that parses the command-line arguments and calls the appropriate functions. [Link](./alx-files_manager/blob/main/10-main)
-- [11. Test]: Write unit tests for all functions using the unittest module. [Link](./alx-files_manager/blob/main/11-test)
+- [0. Create]: Write a function that creates an empty file or a folder.
+- [1. Delete]: Write a function that deletes a file or a folder.
+- [2. Move]: Write a function that moves a file or a folder to another location.
+- [3. Copy]: Write a function that copies a file or a folder to another location.
+- [4. Rename]: Write a function that renames a file or a folder.
+- [5. Search]: Write a function that searches for a file or a folder by name, size, type, or content.
+- [6. List]: Write a function that lists all files and folders in a given directory.
+- [7. Permissions]: Write a function that changes the permissions of a file or a folder.
+- [8. Owner]: Write a function that changes the owner of a file or a folder.
+- [9. Timestamp]: Write a function that changes the timestamp of a file or a folder.
+- [10. Main]: Write the main function that parses the command-line arguments and calls the appropriate functions.
+- [11. Test]: Write unit tests for all functions using the unittest module.
 
-[![Coverage Status](https://coveralls.io/repos/github/B3zaleel/alx-files_manager/badge.svg?branch=main)](https://coveralls.io/github/B3zaleel/alx-files_manager?branch=main)
 
 A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
 
